@@ -1,0 +1,126 @@
+#container {
+    height: 500px;
+    width: 960px;
+    margin: 20px auto;
+}
+
+ul {
+    font-size: 20px;
+    color: red;
+}
+
+#main-content p, #main-content h1 {
+    float: left;
+    width: 60%
+}
+#main-content img {
+    float: right;
+}
+
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+} 
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+
+#image {
+ float: left;   
+}
+
+#header,
+#footer,
+#main-content,
+#sidebar {
+    padding:20px;
+}
+
+#header {
+    height: 40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: black;
+  
+    
+}
+
+#main-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#main-navigation ul li {
+    float: left;
+}
+
+#main-navigation li a {
+  
+    padding: 8px 16px;
+    color:grey;
+}
+
+#main-navigation a:hover {
+    color:white;
+}
+
+.active {
+    
+    color: black;
+}
+
+#main-content {
+height: 100%;
+padding: 0;
+width:800px;
+  
+}
+
+#footer {
+    height: 100px;
+    
+}
+
+#copyright {
+    height: 100%;
+}
+
+body {
+    width: 500px;
+    margin: 20px auto;
+}
+
+
+input[type="text"],
+input[type="submit"],
+input[type="email"],
+input[type="country"],
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+input[type="submit"] {
+    background-color: lightgreen;
+}
+
+.form-row {
+    margin: 100px 0;
+} 
+
+.required {
+    font-size: 22px;
+    color: red;
+}
